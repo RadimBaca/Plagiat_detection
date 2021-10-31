@@ -48,7 +48,7 @@ java -cp target\PdfAnalyzer-1.0-SNAPSHOT.jar cz.vsb.baca.App -i insert_dir usern
 
 Use the following query to see the most similar documents.
 
-```
+```sql
 select *
 from podobne_projekty
 order by sim desc
