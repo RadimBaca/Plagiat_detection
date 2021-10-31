@@ -2,7 +2,7 @@
 
 ## Installation
 
-First of all it is necessary to prepare a PostgreSQL database where you will store the data.
+First of all it is necessary to prepare a PostgreSQL database where you will store the data. We use files having a format where the first six or seven characters is a person login. Therefore we automaticaly extract the login from the file name and store it in the projekty table.
 
 ```sql
 create extension pg_trgm;
