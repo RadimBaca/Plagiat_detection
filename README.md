@@ -1,4 +1,4 @@
-# Plagiat_detection
+# Plagiat Detection
 
 ## Installation
 
